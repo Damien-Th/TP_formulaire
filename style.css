@@ -1,0 +1,68 @@
+/* les 4 champs + le titre */
+.formContainer {
+   width: max-content;
+}
+
+/* le titre */
+.formTitle p {
+   display: flex;
+   justify-content: center;
+   margin: 020px;
+   text-transform: uppercase;
+   color: rgb(114, 114, 114);
+}
+
+/* input */
+.inputStyle {
+   display: block;
+   outline: none;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-bottom: black solid 1px;
+}
+
+.inputStyle:focus {
+   display: block;
+   border-bottom: rgb(57, 107, 165) solid 2px;
+}
+
+.formInput {
+   display: flex;
+   margin: 20px;
+}
+
+/* Input Message*/
+.formMessage {
+   margin: 0 40px;
+}
+
+/* Space between Input*/
+.formSpace {
+   margin: 20px;
+}
+
+/* input Submit */
+.inputSubmit {
+   display: flex;
+   margin: 20px 40px;
+}
+
+.inputSubmit input:hover {
+   border-color: rgb(57, 107, 165);
+   background-color: rgb(57, 107, 165);
+   color: white;
+}
+
+.inputSubmit input {
+   font-family: Verdana, sans-serif;
+   color: rgb(114, 114, 114);
+   height: 30px;
+   width: 100px;
+}
+
+/* Warning Message*/
+.obligatoire {
+   padding-top: 5px;
+   color: rgb(57, 107, 165);
+}
